@@ -63,7 +63,7 @@ public class Solution {
  *                           xxxxxxxxxxxxxxxxxxxxxxxxxxxxx....x   =>  total shifts to left                       
  *                                     xxxxxxxxxxxxxxxxxxx....x   =>  number 'a' 
  * xxxxxxxxxxxxxxxxxxxxxx....x                                    =>  number 'b'
- * |->(b_binary.length()-1)<-| => bits covered in current method.
+ * |--> b_binary.length() <--| => bits covered in current method.
  *
  * @return A long integer, representing the sum of 'a' XOR 'b' for the described bits.
  */ 
